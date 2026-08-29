@@ -129,6 +129,11 @@ h2{font-size:clamp(1.6rem,3.4vw,2.3rem);margin:0 0 10px;font-weight:800;letter-s
 
 footer{padding:48px 0 64px;color:var(--tx3);font-size:.87rem}
 footer a{color:var(--tx2)}
+.sites{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;margin-bottom:32px}
+.sites a{display:block;text-decoration:none;background:var(--card);border:1px solid var(--line);
+  border-radius:12px;padding:14px 18px;font-family:var(--mono);font-size:13px;color:var(--tx);transition:.2s}
+.sites a:hover{border-color:var(--acc);transform:translateY(-2px)}
+.sites em{display:block;font-style:normal;font-family:var(--sans);font-size:12px;color:var(--tx3);margin-top:3px}
 code{font-family:var(--mono);font-size:.88em;background:var(--card2);padding:2px 6px;border-radius:5px;border:1px solid var(--line)}
 
 @media(max-width:720px){
@@ -238,6 +243,11 @@ code{font-family:var(--mono);font-size:.88em;background:var(--card2);padding:2px
 
 <footer>
 <div class="wrap">
+  <div class="sites">
+    <a href="https://marcuspatman.space">marcuspatman.space<em>Personal site</em></a>
+    <a href="https://adventurewavelabs.space">adventurewavelabs.space<em>Adventure Wave Labs</em></a>
+    <a href="https://adventureonthewave.com">adventureonthewave.com<em>Adventure Wave Consulting</em></a>
+  </div>
   ⭐ = credited in print. Cover art and book descriptions © <a href="https://www.packtpub.com">Packt Publishing</a>, used for identification.<br/>
   Page and repository content © 2026 <a href="https://github.com/marcuspat">Marcus Patman</a> · CC BY 4.0
 </div>
