@@ -1,0 +1,322 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Packt Technical Reviews — Marcus Patman</title>
+<meta name="description" content="Six technical reviews for Packt Publishing, 2021–2026. From bare-metal Linux administration to agentic AI systems."/>
+<meta property="og:title" content="Packt Technical Reviews — Marcus Patman"/>
+<meta property="og:description" content="Six books. Five years. From bare-metal Linux to agentic AI."/>
+<meta property="og:image" content="https://content.packt.com/B39004/cover_image.jpg"/>
+<meta property="og:type" content="website"/>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📚</text></svg>"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#07080c; --bg2:#0d0f16; --card:#11131c; --card2:#161926;
+  --line:#232838; --line2:#2f3548;
+  --tx:#e8ecf5; --tx2:#a3adc2; --tx3:#6e7994;
+  --acc:#ff7a2f; --acc2:#8b6bff; --ok:#3fb950;
+  --mono:'JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,monospace;
+  --sans:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+  --r:16px;
+}
+@media (prefers-color-scheme: light){
+  :root{--bg:#f7f8fb;--bg2:#eef0f6;--card:#fff;--card2:#f4f6fa;--line:#e0e4ee;--line2:#ccd3e2;
+        --tx:#0e1220;--tx2:#4b5468;--tx3:#7d879c;--acc:#e2600f;--acc2:#6d4ce8;--ok:#1a7f37;}
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--tx);font-family:var(--sans);line-height:1.65;
+  -webkit-font-smoothing:antialiased;overflow-x:hidden}
+body::before{content:"";position:fixed;inset:0;pointer-events:none;z-index:0;
+  background:
+    radial-gradient(900px 500px at 15% -10%, color-mix(in srgb, var(--acc) 16%, transparent), transparent 70%),
+    radial-gradient(800px 500px at 90% 5%, color-mix(in srgb, var(--acc2) 15%, transparent), transparent 70%);}
+.wrap{position:relative;z-index:1;max-width:1120px;margin:0 auto;padding:0 24px}
+a{color:inherit}
+
+/* ── HERO ────────────────────────────── */
+header{padding:88px 0 56px;border-bottom:1px solid var(--line)}
+.eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:.22em;text-transform:uppercase;
+  color:var(--acc);margin:0 0 20px;display:flex;align-items:center;gap:12px}
+.eyebrow::after{content:"";flex:1;height:1px;background:linear-gradient(90deg,var(--line2),transparent)}
+h1{font-size:clamp(2.5rem,7vw,4.6rem);line-height:1.02;margin:0 0 20px;font-weight:800;letter-spacing:-.035em}
+h1 em{font-style:normal;background:linear-gradient(100deg,var(--acc),var(--acc2));
+  -webkit-background-clip:text;background-clip:text;color:transparent}
+.lede{font-size:clamp(1.05rem,2.2vw,1.3rem);color:var(--tx2);max-width:62ch;margin:0 0 40px}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:14px;margin-bottom:36px}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:20px 22px}
+.stat b{display:block;font-size:2rem;font-weight:800;letter-spacing:-.03em;line-height:1;
+  background:linear-gradient(120deg,var(--acc),var(--acc2));-webkit-background-clip:text;background-clip:text;color:transparent}
+.stat span{font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--tx3)}
+.links{display:flex;flex-wrap:wrap;gap:10px}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:11px 18px;border-radius:999px;
+  border:1px solid var(--line2);background:var(--card);color:var(--tx);text-decoration:none;
+  font-size:14px;font-weight:600;transition:.2s}
+.btn:hover{border-color:var(--acc);transform:translateY(-2px)}
+.btn.p{background:linear-gradient(100deg,var(--acc),var(--acc2));border-color:transparent;color:#fff}
+
+/* ── SECTIONS ──────────────────────── */
+section{padding:72px 0;border-bottom:1px solid var(--line)}
+h2{font-size:clamp(1.6rem,3.4vw,2.3rem);margin:0 0 10px;font-weight:800;letter-spacing:-.03em}
+.sub{color:var(--tx2);margin:0 0 34px;max-width:64ch}
+.prose p{color:var(--tx2);max-width:66ch}
+.prose strong{color:var(--tx)}
+
+/* ── FILTERS ───────────────────────── */
+.filters{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:32px}
+.chip{font-family:var(--mono);font-size:12px;letter-spacing:.06em;padding:8px 15px;border-radius:999px;
+  border:1px solid var(--line2);background:transparent;color:var(--tx2);cursor:pointer;transition:.18s}
+.chip:hover{color:var(--tx);border-color:var(--tx3)}
+.chip[aria-pressed="true"]{background:var(--tx);color:var(--bg);border-color:var(--tx)}
+
+/* ── BOOK CARDS ────────────────────── */
+.grid{display:grid;gap:18px}
+.book{display:grid;grid-template-columns:150px 1fr;gap:26px;background:var(--card);
+  border:1px solid var(--line);border-radius:var(--r);padding:26px;transition:.25s;position:relative;overflow:hidden}
+.book::before{content:"";position:absolute;left:0;top:0;bottom:0;width:3px;
+  background:linear-gradient(180deg,var(--acc),var(--acc2));opacity:0;transition:.25s}
+.book:hover{border-color:var(--line2);transform:translateY(-3px);box-shadow:0 18px 50px -22px rgba(0,0,0,.7)}
+.book:hover::before{opacity:1}
+.book.hide{display:none}
+.cover{width:150px;border-radius:8px;display:block;box-shadow:0 10px 30px -12px rgba(0,0,0,.75);
+  border:1px solid var(--line);background:var(--card2)}
+.cover:hover{transform:scale(1.03)}
+.cover{transition:.25s}
+.tags{display:flex;flex-wrap:wrap;gap:7px;margin-bottom:12px}
+.tag{font-family:var(--mono);font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;
+  padding:4px 10px;border-radius:999px;border:1px solid var(--line2);color:var(--tx3)}
+.tag.cr{color:var(--acc);border-color:color-mix(in srgb,var(--acc) 45%,transparent);
+  background:color-mix(in srgb,var(--acc) 12%,transparent)}
+.tag.up{color:var(--acc2);border-color:color-mix(in srgb,var(--acc2) 45%,transparent);
+  background:color-mix(in srgb,var(--acc2) 12%,transparent)}
+.book h3{margin:0 0 6px;font-size:1.35rem;font-weight:700;letter-spacing:-.02em;line-height:1.25}
+.book h3 a{text-decoration:none}
+.book h3 a:hover{color:var(--acc)}
+.tagline{color:var(--tx2);font-style:italic;margin:0 0 14px;font-size:.97rem}
+.meta{font-family:var(--mono);font-size:12px;color:var(--tx3);margin:0 0 16px;
+  display:flex;flex-wrap:wrap;gap:6px 14px}
+.meta i{font-style:normal;color:var(--tx2)}
+.desc{margin:0 0 16px;color:var(--tx2);font-size:.95rem}
+.note{margin:0 0 16px;font-size:.93rem;padding:12px 16px;border-radius:10px;
+  background:var(--card2);border-left:2px solid var(--acc);color:var(--tx)}
+.out{display:flex;flex-wrap:wrap;gap:8px}
+.out a{font-family:var(--mono);font-size:12px;text-decoration:none;color:var(--tx2);
+  border:1px solid var(--line);border-radius:8px;padding:6px 12px;transition:.18s}
+.out a:hover{color:var(--tx);border-color:var(--acc)}
+
+/* ── TIMELINE ──────────────────────── */
+.tl{position:relative;padding-left:30px}
+.tl::before{content:"";position:absolute;left:5px;top:8px;bottom:8px;width:1px;
+  background:linear-gradient(180deg,var(--acc),var(--acc2))}
+.tl li{list-style:none;position:relative;padding:0 0 26px}
+.tl li::before{content:"";position:absolute;left:-30px;top:8px;width:11px;height:11px;border-radius:50%;
+  background:var(--bg);border:2px solid var(--acc)}
+.tl li:last-child::before{border-color:var(--acc2)}
+.tl .yr{font-family:var(--mono);font-size:12px;color:var(--acc);letter-spacing:.1em}
+.tl .ti{font-weight:600;margin:2px 0 2px}
+.tl .td{color:var(--tx3);font-size:.9rem;font-family:var(--mono)}
+
+/* ── TABLE ─────────────────────────── */
+.tbl{width:100%;border-collapse:collapse;font-size:.95rem}
+.tbl th,.tbl td{text-align:left;padding:14px 16px;border-bottom:1px solid var(--line);vertical-align:top}
+.tbl th{font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--tx3)}
+.tbl td:first-child{font-weight:600;white-space:nowrap;width:1%}
+.tbl td:last-child{color:var(--tx2)}
+.scroll{overflow-x:auto;-webkit-overflow-scrolling:touch}
+
+footer{padding:48px 0 64px;color:var(--tx3);font-size:.87rem}
+footer a{color:var(--tx2)}
+code{font-family:var(--mono);font-size:.88em;background:var(--card2);padding:2px 6px;border-radius:5px;border:1px solid var(--line)}
+
+@media(max-width:720px){
+  header{padding:56px 0 40px}
+  .book{grid-template-columns:1fr;gap:18px}
+  .cover{width:118px}
+  section{padding:52px 0}
+}
+@media(prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+</style>
+</head>
+<body>
+
+<header>
+<div class="wrap">
+  <p class="eyebrow">Packt Publishing · 2021 — 2026</p>
+  <h1>Technical<br/>Reviews.<br/><em>Six books.</em></h1>
+  <p class="lede">From <code>/etc/fstab</code> to Model Context Protocol. A running log of the books I've technically reviewed for Packt — what they cover, and why reviewing them is the best way I know to learn a technology in depth.</p>
+
+  <div class="stats">
+    <div class="stat"><b>6</b><span>Books reviewed</span></div>
+    <div class="stat"><b>2</b><span>Credited in print</span></div>
+    <div class="stat"><b>2,550+</b><span>Pages</span></div>
+    <div class="stat"><b>5</b><span>Years</span></div>
+  </div>
+
+  <div class="links">
+    <a class="btn p" href="#books">Browse the shelf ↓</a>
+    <a class="btn" href="https://github.com/marcuspat">GitHub</a>
+    <a class="btn" href="https://www.linkedin.com/in/marcuspatman">LinkedIn</a>
+    <a class="btn" href="https://www.packtpub.com">Packt</a>
+  </div>
+</div>
+</header>
+
+<section>
+<div class="wrap prose">
+  <h2>Why I do this</h2>
+  <p>I did my first <strong>credited</strong> technical review for Packt in 2021. It was a lot of fun — and it turns out to be one of the best ways I've found to learn a new technology in real depth. You don't get to skim. You have to run the code, break the examples, and argue with the author about whether that command actually works on RHEL. Plus, I got my name in print.</p>
+  <p>Since then I've been asked back for <strong>non-credited</strong> reviews, which are their own kind of fun: you get an early copy of the book months before the public does. Reviewing <em>Operational AI with Docker</em> meant reading about Docker Model Runner and agentic MCP integration before most of the industry had heard of it.</p>
+  <p>Most recently I was asked to do another <strong>credited</strong> review — this time on an upcoming Anthropic Claude title. That one I am genuinely excited about.</p>
+</div>
+</section>
+
+<section id="books">
+<div class="wrap">
+  <h2>The shelf</h2>
+  <p class="sub">Newest first. Filter by how the review was credited.</p>
+
+  <div class="filters" role="group" aria-label="Filter books">
+    <button class="chip" data-f="all" aria-pressed="true">All · 6</button>
+    <button class="chip" data-f="credited" aria-pressed="false">⭐ Credited · 2</button>
+    <button class="chip" data-f="early" aria-pressed="false">Early access · 4</button>
+    <button class="chip" data-f="upcoming" aria-pressed="false">🔜 Upcoming · 1</button>
+  </div>
+
+  <div class="grid" id="grid"></div>
+</div>
+</section>
+
+<section>
+<div class="wrap">
+  <h2>Timeline</h2>
+  <p class="sub">The shelf starts at bare-metal Linux and ends at agentic AI. The through-line never changed: <em>will this hold up in production at 3am?</em></p>
+  <ul class="tl">
+    <li><div class="yr">JUN 2021 · ⭐ CREDITED</div><div class="ti">Mastering Linux Administration</div><div class="td">LVM · systemd · Ansible · Kubernetes · AWS/Azure — 772 pp</div></li>
+    <li><div class="yr">MAR 2024</div><div class="ti">Mastering Linux Administration, 2nd Edition</div><div class="td">Shell scripting · Docker · hypervisors · cloud rewrite — 764 pp</div></li>
+    <li><div class="yr">SEP 2025</div><div class="ti">Microsoft Copilot in Azure</div><div class="td">LLM-assisted cloud ops · AKS · cost &amp; compliance — 258 pp</div></li>
+    <li><div class="yr">APR 2026</div><div class="ti">Operational AI with Docker</div><div class="td">Model Runner · agentic services · MCP · edge K8s — 390 pp</div></li>
+    <li><div class="yr">JUN 2026</div><div class="ti">Microsoft Foundry in Action</div><div class="td">Agent lifecycle · evaluations · observability — 370 pp</div></li>
+    <li><div class="yr">OCT 2026 · ⭐ CREDITED</div><div class="ti">Claude Beyond the Prompt</div><div class="td">Skills · agentic workflows · context engineering</div></li>
+  </ul>
+</div>
+</section>
+
+<section>
+<div class="wrap">
+  <h2>What a technical review actually is</h2>
+  <p class="sub">Not copyediting. A technical reviewer is the person who has to answer, chapter by chapter:</p>
+  <div class="scroll">
+  <table class="tbl">
+    <thead><tr><th>Check</th><th>What it means in practice</th></tr></thead>
+    <tbody>
+      <tr><td>Does the code run?</td><td>Every listing, on a clean box, at the stated versions. Not "does it look right."</td></tr>
+      <tr><td>Is the command correct?</td><td>Distro drift is real — <code>systemctl</code> flags, package names, and default paths differ across RHEL, Debian, and SUSE.</td></tr>
+      <tr><td>Is the concept sound?</td><td>Does the mental model the author is teaching survive contact with production?</td></tr>
+      <tr><td>Is anything missing?</td><td>The step the author does automatically and forgot to write down. That's the one that costs a reader two hours.</td></tr>
+      <tr><td>Is it current?</td><td>A cloud console screenshot has a shelf life measured in months.</td></tr>
+    </tbody>
+  </table>
+  </div>
+  <p class="sub" style="margin-top:26px">Comments go back to the author and editor as inline annotations plus a per-chapter questionnaire and score. The author decides what to take. The best exchanges are the ones where you're both wrong at first.</p>
+</div>
+</section>
+
+<section>
+<div class="wrap prose">
+  <h2>Where this comes from</h2>
+  <p>30+ years of infrastructure and platform engineering — bare-metal Linux through multi-cloud Kubernetes — now pointed at agentic AI systems. Which is why the shelf reads the way it does.</p>
+  <p><strong>Reviewing for Packt?</strong> If you're an author or editor looking for a technical reviewer on Linux, Kubernetes, cloud infrastructure, DevSecOps, or agentic AI systems — <a href="https://github.com/marcuspat/packt-technical-reviews/issues">open an issue</a> or reach me on <a href="https://www.linkedin.com/in/marcuspatman">LinkedIn</a>.</p>
+  <div class="links" style="margin-top:26px">
+    <a class="btn p" href="https://github.com/marcuspat/packt-technical-reviews">View on GitHub</a>
+    <a class="btn" href="https://www.linkedin.com/in/marcuspatman">Get in touch</a>
+  </div>
+</div>
+</section>
+
+<footer>
+<div class="wrap">
+  ⭐ = credited in print. Cover art and book descriptions © <a href="https://www.packtpub.com">Packt Publishing</a>, used for identification.<br/>
+  Page and repository content © 2026 <a href="https://github.com/marcuspat">Marcus Patman</a> · CC BY 4.0
+</div>
+</footer>
+
+<script>
+const BOOKS=[
+ {id:"B39004",t:"Claude Beyond the Prompt",sub:"Build reusable skills and agentic workflows",
+  a:"Martin Krause",d:"Expected Oct 23, 2026",pp:null,isbn:"978-1-80778-228-3",
+  v:"1782999957",tags:["credited","upcoming"],
+  x:"Takes the argument I've been making in my own work — that one-off prompting doesn't compose, and the unit of reuse is a <em>skill</em>, not a prompt — and builds a book around it: designing skills and workflows that produce consistent results and can be tested, improved, and reused, plus agentic systems, tool integration, and context management, applied to real work like debugging and documentation.",
+  n:"Second credited review, and the first on a book about the tooling I use every day.",
+  links:[["Packt (pre-order)","https://www.packtpub.com/en-us/product/claude-beyond-the-prompt-9781807782283"]]},
+
+ {id:"B22212",t:"Microsoft Foundry in Action",sub:"A hands-on guide to building, evaluating, and governing enterprise AI agents",
+  a:"Eduardo Sojo",d:"Jun 26, 2026",pp:"370 pp",isbn:"978-1-83588-868-1",
+  v:"1787234514",tags:["early"],alt:"reviewed as <em>Learning Azure AI Foundry</em>",
+  x:"Retitled at publication when Microsoft renamed the platform from Azure AI Foundry to Microsoft Foundry — a nice illustration of why technical books are hard. Covers the full agent lifecycle: data preparation, model selection, deployment, monitoring, continuous evaluation, and the connective tissue between workflows, agents, evals, and observability. Plus real integrations — copilots, Databricks, multi-agent architectures over enterprise data.",
+  n:"The evaluation and observability chapters are the ones that separate a demo from a system.",
+  links:[["Packt","https://www.packtpub.com/en-us/product/microsoft-foundry-in-action-9781835888698"]]},
+
+ {id:"B37340",t:"Operational AI with Docker",sub:"Deploy, scale, and operate agentic AI services with Docker and Kubernetes",
+  a:"Ajeet Singh Raina, Harsh Manvar",d:"Apr 29, 2026",pp:"390 pp",isbn:"978-1-80730-109-5",
+  v:"1784812537",tags:["early"],
+  x:"Squarely in my lane: the gap between an AI demo and an AI service with an SLA. Containerizing GenAI workloads, packaging models as reproducible artifacts, Docker Model Runner for local LLM inference, resource management and autoscaling patterns, Kubernetes orchestration, autonomous and multi-agent architectures, and Model Context Protocol for tool and API integration across cloud, hybrid, and edge.",
+  n:"Reading this in early access was reading the production-agentic playbook before it shipped.",
+  links:[["Packt","https://www.packtpub.com/en-us/product/operational-ai-with-docker-9781807301095"],["Code repo","https://github.com/PacktPublishing/Operational-AI-with-Docker"]]},
+
+ {id:"B22211",t:"Microsoft Copilot in Azure",sub:"AI-powered cloud automation and optimization",
+  a:"David Rendón, Steve Miles",d:"Sep 12, 2025",pp:"258 pp",isbn:"978-1-83620-025-3",
+  v:"1763991033",tags:["early"],
+  x:"The pivot point in the shelf — the first title where an LLM is the operator rather than the subject. Covers grounding concepts, then Copilot applied across Azure Functions, App Service, Storage, SQL/MySQL, AKS cluster management, real-time monitoring, cost optimization, and compliance enforcement.",
+  n:"The hard review question here isn't \"does the command work,\" it's \"does the AI-assisted workflow still hold when the model's answer is wrong?\"",
+  links:[["Packt","https://www.packtpub.com/en-us/product/microsoft-copilot-in-azure-9781836200253"]]},
+
+ {id:"B19682",t:"Mastering Linux Administration, 2nd Edition",sub:"Take your sysadmin skills to the next level by configuring and maintaining Linux systems",
+  a:"Alexandru Calcatinge, Julian Balog",d:"Mar 22, 2024",pp:"764 pp",isbn:"978-1-83763-069-1",
+  v:"1771876720",tags:["early"],
+  x:"Three years on, the same book had to answer a different world. The second edition adds dedicated shell-scripting and automation coverage, rebuilds the container chapters around Docker, expands the hypervisor material, and reworks the cloud sections for how AWS and Azure actually look now.",
+  n:"Reviewing a second edition is a distinct discipline: the job is spotting what quietly went stale since v1.",
+  links:[["Packt","https://www.packtpub.com/en-us/product/mastering-linux-administration-9781837630691"]]},
+
+ {id:"B13196",t:"Mastering Linux Administration",sub:"A comprehensive guide to installing, configuring, and maintaining Linux systems in the modern data center",
+  a:"Alexandru Calcatinge, Julian Balog",d:"Jun 18, 2021",pp:"772 pp",isbn:"978-1-78995-427-2",
+  v:"1775807007",tags:["credited"],
+  x:"The one that started it. 772 pages spanning filesystems, users and permissions, package management, networking, security hardening, shell work, containers, Ansible, Kubernetes, and deployment onto AWS and Azure — the full arc from a single box to a fleet. Reviewing it meant standing up clean installs across distros and running every listing, because \"works on my Ubuntu\" is not the same as \"works.\"",
+  n:"My first credited technical review, and the reason there's a list at all.",
+  links:[["Packt","https://www.packtpub.com/en-us/product/mastering-linux-administration-9781789954272"],["Code repo","https://github.com/PacktPublishing/Mastering-Linux-Administration"]]}
+];
+
+const LABEL={credited:["⭐ Credited","cr"],early:["Early access",""],upcoming:["🔜 Upcoming","up"]};
+
+document.getElementById('grid').innerHTML = BOOKS.map(b=>{
+  const tags=b.tags.map(t=>`<span class="tag ${LABEL[t][1]}">${LABEL[t][0]}</span>`).join('');
+  const meta=[b.a,b.d,b.pp,`ISBN ${b.isbn}`].filter(Boolean)
+    .map((m,i)=>i===0?`<i>${m}</i>`:m).join('<span style="opacity:.4">·</span>');
+  const links=b.links.map(([n,u])=>`<a href="${u}" target="_blank" rel="noopener">${n} ↗</a>`).join('');
+  const url=b.links[0][1];
+  return `<article class="book" data-tags="${b.tags.join(' ')}">
+   <a href="${url}" target="_blank" rel="noopener"><img class="cover" loading="lazy"
+     src="https://content.packt.com/${b.id}/cover_image.jpg?version=${b.v}" alt="${b.t} cover"/></a>
+   <div>
+     <div class="tags">${tags}${b.alt?`<span class="tag">${b.alt}</span>`:''}</div>
+     <h3><a href="${url}" target="_blank" rel="noopener">${b.t}</a></h3>
+     <p class="tagline">${b.sub}</p>
+     <p class="meta">${meta}</p>
+     <p class="desc">${b.x}</p>
+     <p class="note">${b.n}</p>
+     <div class="out">${links}</div>
+   </div></article>`;
+}).join('');
+
+const chips=[...document.querySelectorAll('.chip')];
+chips.forEach(c=>c.addEventListener('click',()=>{
+  chips.forEach(o=>o.setAttribute('aria-pressed', String(o===c)));
+  const f=c.dataset.f;
+  document.querySelectorAll('.book').forEach(el=>
+    el.classList.toggle('hide', f!=='all' && !el.dataset.tags.split(' ').includes(f)));
+}));
+</script>
+</body>
+</html>
