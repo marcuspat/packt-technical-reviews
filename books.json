@@ -1,0 +1,92 @@
+{
+  "reviewer": {
+    "name": "Marcus Patman",
+    "github": "https://github.com/marcuspat",
+    "linkedin": "https://www.linkedin.com/in/marcuspatman"
+  },
+  "publisher": "Packt Publishing",
+  "updated": "2026-08-29",
+  "books": [
+    {
+      "title": "Mastering Linux Administration",
+      "subtitle": "A comprehensive guide to installing, configuring, and maintaining Linux systems in the modern data center",
+      "edition": 1,
+      "authors": ["Alexandru Calcatinge", "Julian Balog"],
+      "published": "2021-06-18",
+      "pages": 772,
+      "isbn13": "9781789954272",
+      "packt_code": "B13196",
+      "credit": "credited",
+      "url": "https://www.packtpub.com/en-us/product/mastering-linux-administration-9781789954272",
+      "code_repo": "https://github.com/PacktPublishing/Mastering-Linux-Administration",
+      "topics": ["linux", "systemd", "lvm", "networking", "security", "ansible", "kubernetes", "aws", "azure"]
+    },
+    {
+      "title": "Mastering Linux Administration",
+      "subtitle": "Take your sysadmin skills to the next level by configuring and maintaining Linux systems",
+      "edition": 2,
+      "authors": ["Alexandru Calcatinge", "Julian Balog"],
+      "published": "2024-03-22",
+      "pages": 764,
+      "isbn13": "9781837630691",
+      "packt_code": "B19682",
+      "credit": "early-access",
+      "url": "https://www.packtpub.com/en-us/product/mastering-linux-administration-9781837630691",
+      "topics": ["linux", "shell-scripting", "docker", "hypervisors", "kubernetes", "cloud"]
+    },
+    {
+      "title": "Microsoft Copilot in Azure",
+      "subtitle": "AI-powered cloud automation and optimization",
+      "edition": 1,
+      "authors": ["David Rendón", "Steve Miles"],
+      "published": "2025-09-12",
+      "pages": 258,
+      "isbn13": "9781836200253",
+      "packt_code": "B22211",
+      "credit": "early-access",
+      "url": "https://www.packtpub.com/en-us/product/microsoft-copilot-in-azure-9781836200253",
+      "topics": ["azure", "copilot", "llm", "aks", "finops", "compliance"]
+    },
+    {
+      "title": "Operational AI with Docker",
+      "subtitle": "Deploy, scale, and operate agentic AI services with Docker and Kubernetes",
+      "edition": 1,
+      "authors": ["Ajeet Singh Raina", "Harsh Manvar"],
+      "published": "2026-04-29",
+      "pages": 390,
+      "isbn13": "9781807301095",
+      "packt_code": "B37340",
+      "credit": "early-access",
+      "url": "https://www.packtpub.com/en-us/product/operational-ai-with-docker-9781807301095",
+      "code_repo": "https://github.com/PacktPublishing/Operational-AI-with-Docker",
+      "topics": ["docker", "kubernetes", "genai", "model-runner", "agentic-ai", "mcp", "edge"]
+    },
+    {
+      "title": "Microsoft Foundry in Action",
+      "subtitle": "A hands-on guide to building, evaluating, and governing enterprise AI agents",
+      "reviewed_as": "Learning Azure AI Foundry",
+      "edition": 1,
+      "authors": ["Eduardo Sojo"],
+      "published": "2026-06-26",
+      "pages": 370,
+      "isbn13": "9781835888681",
+      "packt_code": "B22212",
+      "credit": "early-access",
+      "url": "https://www.packtpub.com/en-us/product/microsoft-foundry-in-action-9781835888698",
+      "topics": ["azure-ai-foundry", "agents", "evaluations", "observability", "databricks", "multi-agent"]
+    },
+    {
+      "title": "Claude Beyond the Prompt",
+      "subtitle": "Build reusable skills and agentic workflows",
+      "edition": 1,
+      "authors": ["Martin Krause"],
+      "published": "2026-10-23",
+      "status": "upcoming",
+      "isbn13": "9781807782283",
+      "packt_code": "B39004",
+      "credit": "credited",
+      "url": "https://www.packtpub.com/en-us/product/claude-beyond-the-prompt-9781807782283",
+      "topics": ["claude", "agent-skills", "agentic-workflows", "context-engineering", "mcp"]
+    }
+  ]
+}
