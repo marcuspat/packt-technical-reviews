@@ -200,13 +200,13 @@ Comments go back to the author and editor as inline annotations plus a per-chapt
 
 ## 🧰 Where This Comes From
 
-30+ years of infrastructure and platform engineering — bare-metal Linux through multi-cloud Kubernetes — now pointed at agentic AI systems. Which is why the shelf above reads the way it does: it starts at `/etc/fstab` and ends at Model Context Protocol, and the through-line is the same question every time. *Will this hold up in production at 3am?*
+20+ years of infrastructure and platform engineering — bare-metal Linux through multi-cloud Kubernetes — now pointed at agentic AI systems. Which is why the shelf above reads the way it does: it starts at `/etc/fstab` and ends at Model Context Protocol, and the through-line is the same question every time. *Will this hold up in production at 3am?*
 
 **Other work:**
 
-- 🌀 [**Turbo Flow**](https://github.com/marcuspat) — open-source agentic development environment
+- 🌀 [**Turbo Flow**](https://github.com/marcuspat/turbo-flow) — open-source agentic development environment
 - 🏗️ **Creando Tu Matrix / Adventure Wave Labs** — bilingual agentic AI consultancy
-- 🐙 [**@marcuspat**](https://github.com/marcuspat) — top 2% GitHub developer by universal rank
+- 🐙 [**@marcuspat**](https://github.com/marcuspat) — GitHub profile and open-source work
 
 ---
 
