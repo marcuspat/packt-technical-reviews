@@ -5,7 +5,7 @@
     "linkedin": "https://www.linkedin.com/in/marcuspatman"
   },
   "publisher": "Packt Publishing",
-  "updated": "2026-08-29",
+  "updated": "2026-09-26",
   "books": [
     {
       "title": "Mastering Linux Administration",
@@ -87,6 +87,16 @@
       "credit": "credited",
       "url": "https://www.packtpub.com/en-us/product/claude-beyond-the-prompt-9781807782283",
       "topics": ["claude", "agent-skills", "agentic-workflows", "context-engineering", "mcp"]
+    },
+    {
+      "title": "Loop Engineering with Claude Code",
+      "edition": 1,
+      "status": "upcoming",
+      "credit": "credited",
+      "expected": "December 2026 (estimated)",
+      "cover": "TBA",
+      "description": "TBA",
+      "topics": ["claude", "claude-code", "agentic-workflows", "loop-engineering"]
     }
   ]
 }

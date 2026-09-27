@@ -4,14 +4,14 @@
 
 # 📚 Packt Technical Reviews
 
-### Six books. Five years. From bare-metal Linux to agentic AI.
+### Seven books. Five years. From bare-metal Linux to agentic AI.
 
 *A running log of my technical review work for [Packt Publishing](https://www.packtpub.com) — 2021 to present.*
 
 <br/>
 
-![Books](https://img.shields.io/badge/Books_Reviewed-6-1f6feb?style=for-the-badge&labelColor=0d1117)
-![Credited](https://img.shields.io/badge/Credited_in_Print-2-2ea043?style=for-the-badge&labelColor=0d1117)
+![Books](https://img.shields.io/badge/Books_Reviewed-7-1f6feb?style=for-the-badge&labelColor=0d1117)
+![Credited](https://img.shields.io/badge/Credited_in_Print-3-2ea043?style=for-the-badge&labelColor=0d1117)
 ![Pages](https://img.shields.io/badge/Pages-2%2C550%2B-8957e5?style=for-the-badge&labelColor=0d1117)
 ![Span](https://img.shields.io/badge/2021_→_2026-db6d28?style=for-the-badge&labelColor=0d1117)
 
@@ -33,7 +33,7 @@ Plus, I got my name in print. 🖨️
 
 Since then I've been asked back for **non-credited reviews**, which are their own kind of fun: you get an early copy of the book months before the public does. Reviewing *Operational AI with Docker* meant reading about Docker Model Runner and agentic MCP integration before most of the industry had heard of it.
 
-Most recently I was asked to do another **credited review** — this time on an upcoming Anthropic Claude title. That one I am genuinely excited about. 🤖
+Most recently I've been asked back for **credited reviews** on two upcoming Claude titles: *Claude Beyond the Prompt* and *Loop Engineering with Claude Code*. Those I am genuinely excited about. 🤖
 
 ---
 
@@ -41,12 +41,13 @@ Most recently I was asked to do another **credited review** — this time on an 
 
 <table>
 <tr>
-<td align="center" width="16.6%"><a href="https://www.packtpub.com/en-us/product/mastering-linux-administration-9781789954272"><img src="https://content.packt.com/B13196/cover_image.jpg?version=1775807007" width="130" alt="Mastering Linux Administration"/></a><br/><sub><b>Mastering Linux<br/>Administration</b><br/>2021 · ⭐ Credited</sub></td>
-<td align="center" width="16.6%"><a href="https://www.packtpub.com/en-us/product/mastering-linux-administration-9781837630691"><img src="https://content.packt.com/B19682/cover_image.jpg?version=1771876720" width="130" alt="Mastering Linux Administration 2E"/></a><br/><sub><b>Mastering Linux<br/>Administration, 2E</b><br/>2024</sub></td>
-<td align="center" width="16.6%"><a href="https://www.packtpub.com/en-us/product/microsoft-copilot-in-azure-9781836200253"><img src="https://content.packt.com/B22211/cover_image.jpg?version=1763991033" width="130" alt="Microsoft Copilot in Azure"/></a><br/><sub><b>Microsoft Copilot<br/>in Azure</b><br/>2025</sub></td>
-<td align="center" width="16.6%"><a href="https://www.packtpub.com/en-us/product/operational-ai-with-docker-9781807301095"><img src="https://content.packt.com/B37340/cover_image.jpg?version=1784812537" width="130" alt="Operational AI with Docker"/></a><br/><sub><b>Operational AI<br/>with Docker</b><br/>2026</sub></td>
-<td align="center" width="16.6%"><a href="https://www.packtpub.com/en-us/product/microsoft-foundry-in-action-9781835888698"><img src="https://content.packt.com/B22212/cover_image.jpg?version=1787234514" width="130" alt="Microsoft Foundry in Action"/></a><br/><sub><b>Microsoft Foundry<br/>in Action</b><br/>2026</sub></td>
-<td align="center" width="16.6%"><a href="https://www.packtpub.com/en-us/product/claude-beyond-the-prompt-9781807782283"><img src="https://content.packt.com/B39004/cover_image.jpg?version=1782999957" width="130" alt="Claude Beyond the Prompt"/></a><br/><sub><b>Claude Beyond<br/>the Prompt</b><br/>2026 · ⭐ Credited</sub></td>
+<td align="center" width="14.3%"><a href="https://www.packtpub.com/en-us/product/mastering-linux-administration-9781789954272"><img src="https://content.packt.com/B13196/cover_image.jpg?version=1775807007" width="130" alt="Mastering Linux Administration"/></a><br/><sub><b>Mastering Linux<br/>Administration</b><br/>2021 · ⭐ Credited</sub></td>
+<td align="center" width="14.3%"><a href="https://www.packtpub.com/en-us/product/mastering-linux-administration-9781837630691"><img src="https://content.packt.com/B19682/cover_image.jpg?version=1771876720" width="130" alt="Mastering Linux Administration 2E"/></a><br/><sub><b>Mastering Linux<br/>Administration, 2E</b><br/>2024</sub></td>
+<td align="center" width="14.3%"><a href="https://www.packtpub.com/en-us/product/microsoft-copilot-in-azure-9781836200253"><img src="https://content.packt.com/B22211/cover_image.jpg?version=1763991033" width="130" alt="Microsoft Copilot in Azure"/></a><br/><sub><b>Microsoft Copilot<br/>in Azure</b><br/>2025</sub></td>
+<td align="center" width="14.3%"><a href="https://www.packtpub.com/en-us/product/operational-ai-with-docker-9781807301095"><img src="https://content.packt.com/B37340/cover_image.jpg?version=1784812537" width="130" alt="Operational AI with Docker"/></a><br/><sub><b>Operational AI<br/>with Docker</b><br/>2026</sub></td>
+<td align="center" width="14.3%"><a href="https://www.packtpub.com/en-us/product/microsoft-foundry-in-action-9781835888698"><img src="https://content.packt.com/B22212/cover_image.jpg?version=1787234514" width="130" alt="Microsoft Foundry in Action"/></a><br/><sub><b>Microsoft Foundry<br/>in Action</b><br/>2026</sub></td>
+<td align="center" width="14.3%"><a href="https://www.packtpub.com/en-us/product/claude-beyond-the-prompt-9781807782283"><img src="https://content.packt.com/B39004/cover_image.jpg?version=1782999957" width="130" alt="Claude Beyond the Prompt"/></a><br/><sub><b>Claude Beyond<br/>the Prompt</b><br/>2026 · ⭐ Credited</sub></td>
+<td align="center" width="14.3%"><sub><b>📖</b><br/><br/><b>Loop Engineering<br/>with Claude Code</b><br/>Dec 2026 (est.) · ⭐ Credited<br/>cover TBA</sub></td>
 </tr>
 </table>
 
@@ -71,7 +72,10 @@ Most recently I was asked to do another **credited review** — this time on an 
    Jun  │   Enterprise agent lifecycle, evals, observability
         │
 2026 ──●── Claude Beyond the Prompt                    ⭐ credited · upcoming
-   Oct  ╰   Skills, agentic workflows, context engineering
+   Oct  │   Skills, agentic workflows, context engineering
+        │
+2026 ──●── Loop Engineering with Claude Code           ⭐ credited · upcoming
+   Dec  ╰   Cover and description TBA · estimated publication
 ```
 
 ---
@@ -177,6 +181,20 @@ The one I'm most excited about. It takes the argument I've been making in my own
 **Second credited review, and the first on a book about the tooling I use every day.**
 
 [Packt (pre-order)](https://www.packtpub.com/en-us/product/claude-beyond-the-prompt-9781807782283)
+
+<br clear="left"/>
+
+---
+
+### 7. Loop Engineering with Claude Code &nbsp;·&nbsp; ⭐ Credited &nbsp;·&nbsp; 🔜 Upcoming
+
+> *Subtitle and description coming soon*
+
+**Author** TBA &nbsp;·&nbsp; **Expected** December 2026 (estimated) &nbsp;·&nbsp; cover, ISBN, and product page TBA
+
+Cover and description coming soon. I'll fill this section in as Packt finalizes the book.
+
+**Third credited review, and the closest to home: loop engineering is how I already run my own work every day.**
 
 <br clear="left"/>
 

@@ -4,9 +4,9 @@
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width,initial-scale=1"/>
 <title>Packt Technical Reviews — Marcus Patman</title>
-<meta name="description" content="Six technical reviews for Packt Publishing, 2021–2026. From bare-metal Linux administration to agentic AI systems."/>
+<meta name="description" content="Seven technical reviews for Packt Publishing, 2021–2026. From bare-metal Linux administration to agentic AI systems."/>
 <meta property="og:title" content="Packt Technical Reviews — Marcus Patman"/>
-<meta property="og:description" content="Six books. Five years. From bare-metal Linux to agentic AI."/>
+<meta property="og:description" content="Seven books. Five years. From bare-metal Linux to agentic AI."/>
 <meta property="og:image" content="https://content.packt.com/B39004/cover_image.jpg"/>
 <meta property="og:type" content="website"/>
 <link rel="canonical" href="https://packt-technical-reviews.vercel.app/"/>
@@ -86,6 +86,11 @@ h2{font-size:clamp(1.6rem,3.4vw,2.3rem);margin:0 0 10px;font-weight:800;letter-s
   border:1px solid var(--line);background:var(--card2)}
 .cover:hover{transform:scale(1.03)}
 .cover{transition:.25s}
+.cover.tba{aspect-ratio:255/326;display:flex;flex-direction:column;align-items:center;justify-content:center;
+  gap:10px;padding:16px;text-align:center;box-shadow:none;border-style:dashed}
+.tba-i{font-size:28px;line-height:1}
+.tba-t{font-size:12.5px;font-weight:600;line-height:1.4;color:var(--tx2)}
+.tba-s{font-family:var(--mono);font-size:9.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--tx3)}
 .tags{display:flex;flex-wrap:wrap;gap:7px;margin-bottom:12px}
 .tag{font-family:var(--mono);font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;
   padding:4px 10px;border-radius:999px;border:1px solid var(--line2);color:var(--tx3)}
@@ -151,12 +156,12 @@ code{font-family:var(--mono);font-size:.88em;background:var(--card2);padding:2px
 <header>
 <div class="wrap">
   <p class="eyebrow">Packt Publishing · 2021 — 2026</p>
-  <h1>Technical<br/>Reviews.<br/><em>Six books.</em></h1>
+  <h1>Technical<br/>Reviews.<br/><em>Seven books.</em></h1>
   <p class="lede">From <code>/etc/fstab</code> to Model Context Protocol. A running log of the books I've technically reviewed for Packt — what they cover, and why reviewing them is the best way I know to learn a technology in depth.</p>
 
   <div class="stats">
-    <div class="stat"><b>6</b><span>Books reviewed</span></div>
-    <div class="stat"><b>2</b><span>Credited in print</span></div>
+    <div class="stat"><b>7</b><span>Books reviewed</span></div>
+    <div class="stat"><b>3</b><span>Credited in print</span></div>
     <div class="stat"><b>2,550+</b><span>Pages</span></div>
     <div class="stat"><b>5</b><span>Years</span></div>
   </div>
@@ -175,7 +180,7 @@ code{font-family:var(--mono);font-size:.88em;background:var(--card2);padding:2px
   <h2>Why I do this</h2>
   <p>I did my first <strong>credited</strong> technical review for Packt in 2021. It was a lot of fun — and it turns out to be one of the best ways I've found to learn a new technology in real depth. You don't get to skim. You have to run the code, break the examples, and argue with the author about whether that command actually works on RHEL. Plus, I got my name in print.</p>
   <p>Since then I've been asked back for <strong>non-credited</strong> reviews, which are their own kind of fun: you get an early copy of the book months before the public does. Reviewing <em>Operational AI with Docker</em> meant reading about Docker Model Runner and agentic MCP integration before most of the industry had heard of it.</p>
-  <p>Most recently I was asked to do another <strong>credited</strong> review — this time on an upcoming Anthropic Claude title. That one I am genuinely excited about.</p>
+  <p>Most recently I've been asked back for <strong>credited</strong> reviews on two upcoming Claude titles: <em>Claude Beyond the Prompt</em> and <em>Loop Engineering with Claude Code</em>. Those I am genuinely excited about.</p>
 </div>
 </section>
 
@@ -185,10 +190,10 @@ code{font-family:var(--mono);font-size:.88em;background:var(--card2);padding:2px
   <p class="sub">Newest first. Filter by how the review was credited.</p>
 
   <div class="filters" role="group" aria-label="Filter books">
-    <button class="chip" data-f="all" aria-pressed="true">All · 6</button>
-    <button class="chip" data-f="credited" aria-pressed="false">⭐ Credited · 2</button>
+    <button class="chip" data-f="all" aria-pressed="true">All · 7</button>
+    <button class="chip" data-f="credited" aria-pressed="false">⭐ Credited · 3</button>
     <button class="chip" data-f="early" aria-pressed="false">Early access · 4</button>
-    <button class="chip" data-f="upcoming" aria-pressed="false">🔜 Upcoming · 1</button>
+    <button class="chip" data-f="upcoming" aria-pressed="false">🔜 Upcoming · 2</button>
   </div>
 
   <div class="grid" id="grid"></div>
@@ -206,6 +211,7 @@ code{font-family:var(--mono);font-size:.88em;background:var(--card2);padding:2px
     <li><div class="yr">APR 2026</div><div class="ti">Operational AI with Docker</div><div class="td">Model Runner · agentic services · MCP · edge K8s — 390 pp</div></li>
     <li><div class="yr">JUN 2026</div><div class="ti">Microsoft Foundry in Action</div><div class="td">Agent lifecycle · evaluations · observability — 370 pp</div></li>
     <li><div class="yr">OCT 2026 · ⭐ CREDITED</div><div class="ti">Claude Beyond the Prompt</div><div class="td">Skills · agentic workflows · context engineering</div></li>
+    <li><div class="yr">DEC 2026 · ⭐ CREDITED · EST.</div><div class="ti">Loop Engineering with Claude Code</div><div class="td">Estimated Dec 2026 · cover and description TBA</div></li>
   </ul>
 </div>
 </section>
@@ -256,6 +262,12 @@ code{font-family:var(--mono);font-size:.88em;background:var(--card2);padding:2px
 
 <script>
 const BOOKS=[
+ {t:"Loop Engineering with Claude Code",
+  d:"Expected Dec 2026 (estimated)",tags:["credited","upcoming"],
+  x:"Cover and description coming soon. I'll add the details as Packt finalizes the book; estimated publication December 2026.",
+  n:"Third credited review, and the closest to home: loop engineering is how I already run my own work every day.",
+  links:[]},
+
  {id:"B39004",t:"Claude Beyond the Prompt",sub:"Build reusable skills and agentic workflows",
   a:"Martin Krause",d:"Expected Oct 23, 2026",pp:null,isbn:"978-1-80778-228-3",
   v:"1782999957",tags:["credited","upcoming"],
@@ -303,21 +315,25 @@ const LABEL={credited:["⭐ Credited","cr"],early:["Early access",""],upcoming:[
 
 document.getElementById('grid').innerHTML = BOOKS.map(b=>{
   const tags=b.tags.map(t=>`<span class="tag ${LABEL[t][1]}">${LABEL[t][0]}</span>`).join('');
-  const meta=[b.a,b.d,b.pp,`ISBN ${b.isbn}`].filter(Boolean)
+  const meta=[b.a,b.d,b.pp,b.isbn?`ISBN ${b.isbn}`:null].filter(Boolean)
     .map((m,i)=>i===0?`<i>${m}</i>`:m).join('<span style="opacity:.4">·</span>');
   const links=b.links.map(([n,u])=>`<a href="${u}" target="_blank" rel="noopener">${n} ↗</a>`).join('');
-  const url=b.links[0][1];
+  const url=b.links[0]?b.links[0][1]:null;
+  const titleLink=url?`<a href="${url}" target="_blank" rel="noopener">${b.t}</a>`:b.t;
+  const cover=b.id
+   ?`<a href="${url}" target="_blank" rel="noopener"><img class="cover" loading="lazy"
+     src="https://content.packt.com/${b.id}/cover_image.jpg?version=${b.v}" alt="${b.t} cover"/></a>`
+   :`<div class="cover tba"><span class="tba-i">📖</span><span class="tba-t">${b.t}</span><span class="tba-s">Cover coming soon</span></div>`;
   return `<article class="book" data-tags="${b.tags.join(' ')}">
-   <a href="${url}" target="_blank" rel="noopener"><img class="cover" loading="lazy"
-     src="https://content.packt.com/${b.id}/cover_image.jpg?version=${b.v}" alt="${b.t} cover"/></a>
+   ${cover}
    <div>
      <div class="tags">${tags}${b.alt?`<span class="tag">${b.alt}</span>`:''}</div>
-     <h3><a href="${url}" target="_blank" rel="noopener">${b.t}</a></h3>
-     <p class="tagline">${b.sub}</p>
+     <h3>${titleLink}</h3>
+     ${b.sub?`<p class="tagline">${b.sub}</p>`:''}
      <p class="meta">${meta}</p>
      <p class="desc">${b.x}</p>
      <p class="note">${b.n}</p>
-     <div class="out">${links}</div>
+     ${b.links.length?`<div class="out">${links}</div>`:''}
    </div></article>`;
 }).join('');
 
