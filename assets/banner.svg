@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" role="img" aria-label="packt-technical-reviews: Technical reviews for Packt Publishing, 2021–2026 — seven books, from bare-metal Linux to agentic AI systems.">
+<title>packt-technical-reviews</title>
+<defs>
+<radialGradient id="aur1"><stop offset="0" stop-color="#22d3ee" stop-opacity="0.50"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/></radialGradient>
+<radialGradient id="aur2"><stop offset="0" stop-color="#7c3aed" stop-opacity="0.45"/><stop offset="1" stop-color="#7c3aed" stop-opacity="0"/></radialGradient>
+<radialGradient id="orb"><stop offset="0" stop-color="#22d3ee" stop-opacity="0.9"/><stop offset="0.55" stop-color="#22d3ee" stop-opacity="0.25"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/></radialGradient>
+<linearGradient id="tgrad" x1="0" x2="1"><stop offset="0" stop-color="#d4a55e"/><stop offset="0.6" stop-color="#ffffff"/><stop offset="1" stop-color="#d4a55e"/></linearGradient>
+<linearGradient id="beam" x1="0" x2="1"><stop offset="0" stop-color="#ffffff" stop-opacity="0"/><stop offset="0.5" stop-color="#ffffff" stop-opacity="0.45"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></linearGradient>
+<linearGradient id="hglow" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#d4a55e" stop-opacity="0.30"/><stop offset="1" stop-color="#d4a55e" stop-opacity="0"/></linearGradient>
+<filter id="soft" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="30"/></filter>
+<filter id="glow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="5"/></filter>
+<filter id="glow2" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="10"/></filter>
+</defs>
+<rect width="1200" height="400" fill="#04060c"/>
+<ellipse cx="250" cy="120" rx="360" ry="190" fill="url(#aur1)" filter="url(#soft)">
+<animateTransform attributeName="transform" type="translate" values="0 0; 70 24; -40 12; 0 0" dur="26s" repeatCount="indefinite"/>
+</ellipse>
+<ellipse cx="960" cy="150" rx="400" ry="210" fill="url(#aur2)" filter="url(#soft)">
+<animateTransform attributeName="transform" type="translate" values="0 0; -60 18; 34 -12; 0 0" dur="32s" repeatCount="indefinite"/>
+</ellipse>
+<g><circle cx="997" cy="159" r="2" fill="#dbe7ff"><animate attributeName="opacity" values="0.08;0.85;0.08" dur="3.43s" begin="-2.23s" repeatCount="indefinite"/></circle>
+<circle cx="800" cy="162" r="1.6" fill="#dbe7ff"><animate attributeName="opacity" values="0.08;0.85;0.08" dur="2.61s" begin="-1.90s" repeatCount="indefinite"/></circle>
+<circle cx="519" cy="161" r="1.6" fill="#dbe7ff"><animate attributeName="opacity" values="0.08;0.85;0.08" dur="3.06s" begin="-4.03s" repeatCount="indefinite"/></circle>
+<circle cx="479" cy="210" r="2" fill="#dbe7ff"><animate attributeName="opacity" values="0.08;0.85;0.08" dur="3.02s" begin="-2.94s" repeatCount="indefinite"/></circle>
+<circle cx="941" cy="62" r="1.2" fill="#dbe7ff"><animate attributeName="opacity" values="0.08;0.85;0.08" dur="2.88s" begin="-3.60s" repeatCount="indefinite"/></circle>
+<circle cx="650" cy="76" r="2" fill="#dbe7ff"><animate attributeName="opacity" values="0.08;0.85;0.08" dur="4.07s" begin="-0.08s" repeatCount="indefinite"/></circle>
+<circle cx="231" cy="96" r="1.6" fill="#dbe7ff"><animate attributeName="opacity" values="0.08;0.85;0.08" dur="3.15s" begin="-0.01s" repeatCount="indefinite"/></circle>
+<circle cx="564" cy="178" r="1.6" fill="#dbe7ff"><animate attributeName="opacity" values="0.08;0.85;0.08" dur="4.04s" begin="-1.17s" repeatCount="indefinite"/></circle>
+<circle cx="369" cy="193" r="1" fill="#dbe7ff"><animate attributeName="opacity" values="0.08;0.85;0.08" dur="2.55s" begin="-3.74s" repeatCount="indefinite"/></circle>
+<circle cx="718" cy="53" r="1.6" fill="#dbe7ff"><animate attributeName="opacity" values="0.08;0.85;0.08" dur="2.89s" begin="-4.15s" repeatCount="indefinite"/></circle>
+<circle cx="352" cy="90" r="1.6" fill="#dbe7ff"><animate attributeName="opacity" values="0.08;0.85;0.08" dur="2.69s" begin="-1.05s" repeatCount="indefinite"/></circle>
+<circle cx="82" cy="158" r="2" fill="#dbe7ff"><animate attributeName="opacity" values="0.08;0.85;0.08" dur="3.73s" begin="-1.08s" repeatCount="indefinite"/></circle>
+<circle cx="35" cy="170" r="2" fill="#dbe7ff"><animate attributeName="opacity" values="0.08;0.85;0.08" dur="3.16s" begin="-2.77s" repeatCount="indefinite"/></circle>
+<circle cx="985" cy="146" r="1.6" fill="#dbe7ff"><animate attributeName="opacity" values="0.08;0.85;0.08" dur="3.81s" begin="-4.48s" repeatCount="indefinite"/></circle>
+<circle cx="693" cy="148" r="2" fill="#dbe7ff"><animate attributeName="opacity" values="0.08;0.85;0.08" dur="2.31s" begin="-3.39s" repeatCount="indefinite"/></circle>
+<circle cx="502" cy="200" r="1.2" fill="#dbe7ff"><animate attributeName="opacity" values="0.08;0.85;0.08" dur="3.96s" begin="-1.12s" repeatCount="indefinite"/></circle>
+<circle cx="265" cy="42" r="1.2" fill="#dbe7ff"><animate attributeName="opacity" values="0.08;0.85;0.08" dur="2.64s" begin="-4.27s" repeatCount="indefinite"/></circle>
+<circle cx="1113" cy="140" r="1" fill="#dbe7ff"><animate attributeName="opacity" values="0.08;0.85;0.08" dur="3.83s" begin="-3.72s" repeatCount="indefinite"/></circle>
+<circle cx="880" cy="50" r="1.6" fill="#dbe7ff"><animate attributeName="opacity" values="0.08;0.85;0.08" dur="4.00s" begin="-2.04s" repeatCount="indefinite"/></circle>
+<circle cx="644" cy="207" r="1.6" fill="#dbe7ff"><animate attributeName="opacity" values="0.08;0.85;0.08" dur="2.37s" begin="-0.50s" repeatCount="indefinite"/></circle>
+<circle cx="617" cy="137" r="2" fill="#dbe7ff"><animate attributeName="opacity" values="0.08;0.85;0.08" dur="4.32s" begin="-4.30s" repeatCount="indefinite"/></circle>
+<circle cx="707" cy="83" r="1.6" fill="#dbe7ff"><animate attributeName="opacity" values="0.08;0.85;0.08" dur="2.41s" begin="-2.06s" repeatCount="indefinite"/></circle>
+<circle cx="401" cy="204" r="1.6" fill="#dbe7ff"><animate attributeName="opacity" values="0.08;0.85;0.08" dur="3.08s" begin="-1.57s" repeatCount="indefinite"/></circle>
+<circle cx="269" cy="134" r="1.2" fill="#dbe7ff"><animate attributeName="opacity" values="0.08;0.85;0.08" dur="3.09s" begin="-3.53s" repeatCount="indefinite"/></circle>
+<circle cx="1036" cy="91" r="1.2" fill="#dbe7ff"><animate attributeName="opacity" values="0.08;0.85;0.08" dur="3.89s" begin="-0.60s" repeatCount="indefinite"/></circle>
+<circle cx="906" cy="53" r="2" fill="#dbe7ff"><animate attributeName="opacity" values="0.08;0.85;0.08" dur="3.33s" begin="-2.76s" repeatCount="indefinite"/></circle></g>
+<rect x="0" y="236" width="1200" height="130" fill="url(#hglow)">
+<animate attributeName="opacity" values="0.45;0.9;0.45" dur="7s" repeatCount="indefinite"/>
+</rect>
+<circle cx="600" cy="242" r="90" fill="url(#orb)">
+<animate attributeName="r" values="78;110;78" dur="6s" repeatCount="indefinite"/>
+</circle>
+<path d="M600 240 L-150 400 M600 240 L0 400 M600 240 L150 400 M600 240 L300 400 M600 240 L450 400 M600 240 L600 400 M600 240 L750 400 M600 240 L900 400 M600 240 L1050 400 M600 240 L1200 400 M600 240 L1350 400" stroke="#155e75" stroke-width="1.3" opacity="0.55" fill="none" stroke-dasharray="12 16">
+<animate attributeName="stroke-dashoffset" values="0;-56" dur="0.9s" repeatCount="indefinite"/>
+</path>
+<path d="M0 252 H1200 M0 268 H1200 M0 290 H1200 M0 318 H1200 M0 352 H1200 M0 392 H1200" stroke="#155e75" stroke-width="1" opacity="0.35" fill="none"/>
+<circle cx="600" cy="241" r="4" fill="#d4a55e" filter="url(#glow2)">
+<animate attributeName="opacity" values="0.6;1;0.6" dur="2.6s" repeatCount="indefinite"/>
+</circle>
+<rect x="-260" y="-90" width="170" height="580" fill="url(#beam)" opacity="0.10" filter="url(#soft)" transform="rotate(14)">
+<animateTransform attributeName="transform" type="translate" additive="sum" values="-350 0;1750 0" dur="7s" repeatCount="indefinite"/>
+</rect>
+<rect x="-260" y="-90" width="170" height="580" fill="url(#beam)" opacity="0.07" filter="url(#soft)" transform="rotate(14)">
+<animateTransform attributeName="transform" type="translate" additive="sum" values="-350 0;1750 0" dur="7s" begin="-3.4s" repeatCount="indefinite"/>
+</rect>
+<text x="600" y="66" text-anchor="middle" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="13" letter-spacing="6" fill="#d4a55e" opacity="0.85">MARCUSPAT · PACKT-TECHNICAL-REVIEWS</text>
+<text x="600" y="152" text-anchor="middle" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="74" font-weight="800" letter-spacing="1" fill="#d4a55e" opacity="0.55" filter="url(#glow2)">packt-technical-reviews</text>
+<text x="600" y="152" text-anchor="middle" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="74" font-weight="800" letter-spacing="1" fill="url(#tgrad)">packt-technical-reviews</text>
+<text x="600" y="198" text-anchor="middle" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="19" letter-spacing="0.4" fill="#a8b3c4">Technical reviews for Packt Publishing, 2021–2026 —</text>
+<text x="600" y="224" text-anchor="middle" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="19" letter-spacing="0.4" fill="#a8b3c4">seven books, from bare-metal Linux to agentic AI systems.</text>
+
+<g transform="translate(600,308)">
+
+<g>
+<rect x="-456" y="-22" width="34" height="84" rx="4" fill="#231c10" stroke="#8a6d2f" stroke-width="1.5"/>
+<rect x="-416" y="-38" width="34" height="100" rx="4" fill="#2a1f0f" stroke="#d4a55e" stroke-width="2" filter="url(#glow)"/>
+<rect x="-376" y="-14" width="34" height="76" rx="4" fill="#231c10" stroke="#8a6d2f" stroke-width="1.5"/>
+<rect x="-336" y="-30" width="34" height="92" rx="4" fill="#26200f" stroke="#b8860b" stroke-width="1.5"/>
+<g stroke="#5c4a20" stroke-width="3" stroke-linecap="round">
+<line x1="-408" y1="-26" x2="-390" y2="-26"/><line x1="-408" y1="-16" x2="-390" y2="-16"/>
+<line x1="-368" y1="-4" x2="-350" y2="-4"/><line x1="-448" y1="-4" x2="-430" y2="-4"/><line x1="-328" y1="-14" x2="-310" y2="-14"/>
+</g>
+</g>
+<g>
+<rect x="-170" y="-64" width="240" height="128" rx="10" fill="#e8e0cd"/>
+<g stroke="#9a917a" stroke-width="3.5" stroke-linecap="round">
+<line x1="-148" y1="-40" x2="34" y2="-40"/><line x1="-148" y1="-22" x2="34" y2="-22"/><line x1="-148" y1="18" x2="-60" y2="18"/><line x1="-148" y1="36" x2="0" y2="36"/>
+</g>
+<line x1="-148" y1="-31" x2="34" y2="-31" stroke="#d14343" stroke-width="3" stroke-linecap="round" opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.25;0.4;0.85;1" dur="4.5s" repeatCount="indefinite"/></line>
+<path d="M-140 4 l16 16 l34 -34" fill="none" stroke="#2c8a3a" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" pathLength="100" stroke-dasharray="100" stroke-dashoffset="100">
+<animate attributeName="stroke-dashoffset" values="100;100;0;0;100" keyTimes="0;0.3;0.55;0.85;1" dur="4.5s" repeatCount="indefinite"/>
+</path>
+<text x="-50" y="52" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="12" fill="#6b6350" text-anchor="middle">ch. 12 verified</text>
+</g>
+<rect x="180" y="-58" width="110" height="110" rx="14" fill="none" stroke="#d4a55e" stroke-width="2" stroke-dasharray="6 5"><animate attributeName="stroke-dashoffset" values="0;-22" dur="2s" repeatCount="indefinite"/></rect>
+<text x="235" y="-8" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="15" fill="#d4a55e" text-anchor="middle">TECH</text>
+<text x="235" y="16" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="15" fill="#d4a55e" text-anchor="middle">REVIEW</text>
+<text x="440" y="70" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="13" fill="#7d8590" text-anchor="end">7 books · 2021–2026</text>
+
+</g>
+</svg>
