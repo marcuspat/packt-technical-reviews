@@ -1,3 +1,5 @@
+<p align="center"><img src="assets/banner.svg" alt="packt-technical-reviews — animated banner" width="100%"></p>
+
 <div align="center">
 
 <img src="https://content.packt.com/B39004/cover_image.jpg?version=1782999957" width="150" align="right" alt="Claude Beyond the Prompt"/>
