@@ -21,7 +21,7 @@
 [![Reviewer](https://img.shields.io/badge/Reviewer-Marcus_Patman-181717?style=flat-square&logo=github)](https://github.com/marcuspat)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/marcuspatman)
 
-**[🌐 View the interactive showcase →](https://marcuspat.github.io/packt-technical-reviews/)**
+**[View the Packt review portfolio](https://www.marcuspatman.space/reviews/)**
 
 </div>
 
@@ -176,13 +176,13 @@ The evaluation and observability chapters are the ones that separate a demo from
 
 > *Build reusable skills and agentic workflows*
 
-**Author** Martin Krause &nbsp;·&nbsp; **Expected** October 23, 2026 &nbsp;·&nbsp; `ISBN 978-1-80778-228-3`
+**Author** Martin Krause &nbsp;·&nbsp; **Packt eBook catalog date** November 23, 2026 &nbsp;·&nbsp; `ISBN 978-1-80778-228-3`
 
 The one I'm most excited about. It takes the argument I've been making in my own work — that one-off prompting doesn't compose, and the unit of reuse is a *skill*, not a prompt — and builds a book around it: designing skills and workflows that produce consistent results and can be tested, improved, and reused, plus agentic systems, tool integration, and context engineering, applied to real work like debugging and documentation.
 
 **Second credited review, and the first on a book about the tooling I use every day.**
 
-[Packt (pre-order)](https://www.packtpub.com/en-us/product/claude-beyond-the-prompt-9781807782283)
+[Packt product page](https://www.packtpub.com/en-us/product/claude-beyond-the-prompt-9781807782283)
 
 <br clear="left"/>
 
