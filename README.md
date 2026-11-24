@@ -13,7 +13,7 @@
 <br/>
 
 ![Books](https://img.shields.io/badge/Books_Reviewed-7-1f6feb?style=for-the-badge&labelColor=0d1117)
-![Credited](https://img.shields.io/badge/Credited_in_Print-3-2ea043?style=for-the-badge&labelColor=0d1117)
+![Credited](https://img.shields.io/badge/Reviews_With_Credit-3-2ea043?style=for-the-badge&labelColor=0d1117)
 ![Pages](https://img.shields.io/badge/Pages-2%2C550%2B-8957e5?style=for-the-badge&labelColor=0d1117)
 ![Span](https://img.shields.io/badge/2021_→_2026-db6d28?style=for-the-badge&labelColor=0d1117)
 
@@ -35,7 +35,7 @@ Plus, I got my name in print. 🖨️
 
 Since then I've been asked back for **non-credited reviews**, which are their own kind of fun: you get an early copy of the book months before the public does. Reviewing *Operational AI with Docker* meant reading about Docker Model Runner and agentic MCP integration before most of the industry had heard of it.
 
-Most recently I've been asked back for **credited reviews** on two upcoming Claude titles: *Claude Beyond the Prompt* and *Loop Engineering with Claude Code*. Those I am genuinely excited about. 🤖
+Most recently I've been asked back for **credited reviews** on two Claude titles: *Claude Beyond the Prompt* and *Loop Engineering with Claude Code*. Those I am genuinely excited about. 🤖
 
 ---
 
@@ -73,8 +73,8 @@ Most recently I've been asked back for **credited reviews** on two upcoming Clau
 2026 ──●── Microsoft Foundry in Action                            370 pp
    Jun  │   Enterprise agent lifecycle, evals, observability
         │
-2026 ──●── Claude Beyond the Prompt                    ⭐ credited · upcoming
-   Oct  │   Skills, agentic workflows, context engineering
+2026 ──●── Claude Beyond the Prompt                    ⭐ credited · eBook catalog
+   Nov  │   Skills, agentic workflows, context engineering
         │
 2026 ──●── Loop Engineering with Claude Code           ⭐ credited · upcoming
    Dec  ╰   Cover and description TBA · estimated publication
@@ -170,7 +170,7 @@ The evaluation and observability chapters are the ones that separate a demo from
 
 ---
 
-### 6. Claude Beyond the Prompt &nbsp;·&nbsp; ⭐ Credited &nbsp;·&nbsp; 🔜 Upcoming
+### 6. Claude Beyond the Prompt &nbsp;·&nbsp; ⭐ Credited
 
 <img src="https://content.packt.com/B39004/cover_image.jpg?version=1782999957" width="110" align="left" hspace="16" vspace="4" alt="cover"/>
 
@@ -239,7 +239,7 @@ If you're an author or editor looking for a technical reviewer on Linux, Kuberne
 <div align="center">
 <sub>
 
-⭐ = credited in print · Cover art and book descriptions © [Packt Publishing](https://www.packtpub.com), used for identification.<br/>
+⭐ = a review with agreed credit · Cover art and book descriptions © [Packt Publishing](https://www.packtpub.com), used for identification.<br/>
 Repository content © 2026 Marcus Patman · [CC BY 4.0](LICENSE)
 
 </sub>
